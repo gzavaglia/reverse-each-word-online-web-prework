@@ -6,4 +6,5 @@ reverse_array = []
 array.each do |x|
   reverse_array << x.reverse
 end #do end
+return reverse_array.join(" ")
 end 
